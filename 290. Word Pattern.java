@@ -16,4 +16,4 @@ class Solution
 }
 
 //Time Complexity : O(n) where n is length of pattern
-//Space Complexity : O(n) where n is length of pattern
+//Space Complexity : O(n) where n is length of pattern used for hashmap

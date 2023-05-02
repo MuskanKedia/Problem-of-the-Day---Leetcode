@@ -1,13 +1,15 @@
 class Solution {
-    public int arraySign(int[] nums) {
-        double product=1;
-        for(int a:nums)
-            product=product*a;
-        if(product>0)
-            return 1;
-        else if(product<0)
-            return -1;
-        return 0;
+       public int arraySign(int[] nums) {
+        int sign = 1; 
+        for (int n : nums) {
+            if (n == 0) {
+                return 0; 
+            } 
+			if (n < 0) {
+                sign = -sign; 
+            }
+        }
+        return sign; 
     }
 }
 
